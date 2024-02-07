@@ -1,7 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import Backend from './components/Backend.vue'
 </script>
 
 <template>
@@ -10,10 +9,7 @@ import Backend from './components/Backend.vue'
 
         <div class="wrapper">
             <HelloWorld msg="You did it!" />
-        </div>
-
-        <div class="hello">
-            <Backend />
+            <router-view></router-view>
         </div>
     </header>
 
