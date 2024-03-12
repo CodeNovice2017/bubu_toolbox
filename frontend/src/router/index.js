@@ -1,11 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router';
 import StringProcess from '../components/StringProcess.vue';
-import HelloWorldVue from '@/components/HelloWorld.vue';
+import Welcome from '@/components/Welcome.vue';
 
 const routes = [
     {
         path: '/',
-        name: 'Home',
+        name: 'Welcome',
+        component: Welcome
     },
     {
         path: '/string',
